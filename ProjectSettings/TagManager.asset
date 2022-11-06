@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 196671061
+    locked: 0
+  - name: Monster Space 1
+    uniqueID: 1752100801
+    locked: 0
+  - name: Room Background
+    uniqueID: 3655531929
+    locked: 0
+  - name: Furniture
+    uniqueID: 346223269
+    locked: 0
+  - name: Player Space
+    uniqueID: 635327817
+    locked: 0
+  - name: Foreground
+    uniqueID: 2856225819
+    locked: 0
+  - name: Monster Space 2
+    uniqueID: 1503920883
+    locked: 0
