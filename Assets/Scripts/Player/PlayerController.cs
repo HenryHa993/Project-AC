@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    // Simple movement variables
     public float horizontalInput;
     public float speed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +20,11 @@ public class PlayerController : MonoBehaviour
         HorizontalMovement();
     }
 
+    // Allows player movement using horizontal keys
     void HorizontalMovement()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * Time.deltaTime * horizontalInput * speed);
     }
+
 }
